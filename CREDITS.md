@@ -2,10 +2,10 @@ Projet réalisé par :
 
 - Abdallah Samy HAMDOUCHE
 
-- Sidahmed Himrane
+- Sidahmed HIMRANE
 
-- Rym Agrane
+- Rym AGRANE
 
-- Loutani Meriem
-
-- Anis Alloun
+- Meriem LOUTANI
+  
+- Anis ALLOUN

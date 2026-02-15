@@ -12,6 +12,7 @@
 •	Objectif : amélioration de la maintenabilité, de la lisibilité et de l’efficacité du code, ainsi que la détection précoce de risques
 
 Main :  App.java
+
 first Frame :  principalFrame.java
 
 class des metriques : 

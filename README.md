@@ -1,30 +1,51 @@
 # Metriques_de_qualite_du_code_Java
-•	Développement d’un programme Java pour analyser la qualité du code source
 
-•	Calcul de métriques :
+Développement d’un programme **Java** pour analyser la **qualité du code source** et calculer différentes métriques afin d’améliorer la **maintenabilité**, la **lisibilité** et l’**efficacité** du code, ainsi que la **détection précoce de risques**.
 
-  o	Complexité cyclomatique
-  
-  o	Lignes de code (LOC)
-  
-  o	Indicateurs personnalisés
+## Fonctionnalités
+- Analyse de projets / fichiers Java
+- Calcul de métriques de qualité (standard + personnalisées)
+- Aide à l’identification de problèmes : complexité élevée, modularité faible, redondance, code mort, etc.
 
-•	Objectif : amélioration de la maintenabilité, de la lisibilité et de l’efficacité du code, ainsi que la détection précoce de risques
+## Métriques calculées
+- **Complexité cyclomatique**
+- **Lignes de code (LOC)**
+- **Indicateurs personnalisés**
 
-Main :  App.java
+## Structure du projet
 
-first Frame :  principalFrame.java
+### Point d’entrée
+- **Main** : `App.java`
 
-class des metriques : 
+### Interface (Frames)
+- **First Frame** : `principalFrame.java`
 
-"Indice de Complexité Méthodologique (ICM)" : ICMCalculator.java  ProjectAnalyzer.java   ClassMetrics.java
+### Classes des métriques
 
-"methods calculator (MC)"  :  Calculter.java
+#### Indice de Complexité Méthodologique (ICM)
+- `ICMCalculator.java`
+- `ProjectAnalyzer.java`
+- `ClassMetrics.java`
 
-"Reusability Metric (RM)"   : ReusabilityMetric.java
+#### Methods Calculator (MC)
+- `Calculter.java`
 
-"Métrique de détection de code mort (DCM)" : analyser.java  (test avec : ex_Commande.java   ,  ex_GestionStock.java)
+#### Reusability Metric (RM)
+- `ReusabilityMetric.java`
 
-"Indice de Structuration du Code (ISC)"  :  CBOmetric.java  CodeQualityAnalyzer.java   LCOMCalculator.java  ModularityCalculator.java
+#### Détection de code mort (DCM)
+- `analyser.java`
+- Tests avec :
+  - `ex_Commande.java`
+  - `ex_GestionStock.java`
 
-"Taille de la Redondance Logique (TRL)"  :  TRLmetric.java
+#### Indice de Structuration du Code (ISC)
+- `CBOmetric.java`
+- `CodeQualityAnalyzer.java`
+- `LCOMCalculator.java`
+- `ModularityCalculator.java`
+
+#### Taille de la Redondance Logique (TRL)
+- `TRLmetric.java`
+
+---
